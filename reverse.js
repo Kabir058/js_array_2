@@ -1,5 +1,5 @@
 let numbers=[1,2,3,4,5,6,7]
-console.log(numbers.reverse())
+// console.log(numbers.reverse())
 
 // let num =[];
 // for(let nmbr of numbers)
@@ -8,4 +8,12 @@ console.log(numbers.reverse())
 //     num.unshift(nmbr)
 // }
 // console.log(num)
+let rev_num =[];
+for(i=0; i<numbers.length; i++)
+{
+    console.log(i)
+    rev_num.unshift(numbers[i])
+    
+}
 
+console.log(rev_num)
