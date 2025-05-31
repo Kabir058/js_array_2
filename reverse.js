@@ -1,6 +1,11 @@
-let friends = ['Neil', 'sakib', 'mamun','tayeb','mahabub']
+let numbers=[1,2,3,4,5,6,7]
+console.log(numbers.reverse())
 
-for(let friend of friends)
-{
-    console.log(friend)
-}
+// let num =[];
+// for(let nmbr of numbers)
+// {
+//     console.log(nmbr)
+//     num.unshift(nmbr)
+// }
+// console.log(num)
+
